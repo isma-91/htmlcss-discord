@@ -75,13 +75,24 @@ section {
 
 section h2 {
   font-size: 2.7rem;
+  margin: 0px 25px;
 }
 
 section p {
   font-size: 1.5rem;
   padding-top: 20px;
+  margin: 0px 25px;
+  flex-shrink: 1;
 }
 
-.content-right {
+.gray {
+  background-color: lightgray;
+}
+
+.text-right .content-right {
+  max-width: 25%;
+}
+
+.text-left .content-left {
   max-width: 25%;
 }
