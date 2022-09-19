@@ -66,5 +66,22 @@ a > span {
 }
 
 section {
+  /* border: 3px solid black; */
   display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+section h2 {
+  font-size: 2.7rem;
+}
+
+section p {
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.content-right {
+  max-width: 25%;
 }
