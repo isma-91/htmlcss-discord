@@ -10,9 +10,10 @@ html {
 
 header {
   background-image: url("../img/jumbo.png");
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  height: 1000px;
+  height: 800px;
 }
 
 .header-flex-container {
@@ -45,7 +46,8 @@ nav ul li a {
 .header-content {
   color: white;
   width: 750px;
-  padding-top: 250px;
+  padding-top: 350px;
+
   margin: auto;
   text-align: center;
 }
@@ -61,4 +63,8 @@ nav ul li a {
 a > span {
   font-size: 25px;
   vertical-align: middle;
+}
+
+section {
+  display: flex;
 }
