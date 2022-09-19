@@ -13,7 +13,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 50vh;
 }
 
 .header-flex-container {
@@ -46,8 +46,7 @@ nav ul li a {
 .header-content {
   color: white;
   width: 750px;
-  padding-top: 350px;
-
+  padding-top: 150px;
   margin: auto;
   text-align: center;
 }
@@ -79,10 +78,9 @@ section h2 {
 }
 
 section p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-top: 20px;
   margin: 0px 25px;
-  flex-shrink: 1;
 }
 
 .gray {
@@ -98,11 +96,10 @@ section p {
 }
 
 .big-one {
-  /* display: block; */
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
-  padding-top: 150px;
+  padding-top: 7vh;
 }
 
 .big-one > p {
@@ -110,5 +107,26 @@ section p {
 }
 
 .img-big {
-  width: 1350px;
+  height: 60vh;
+}
+
+.cta {
+  text-align: center;
+}
+
+.cta h3 {
+  font-size: 25px;
+  margin-top: -40px;
+  padding-bottom: 2vh;
+}
+
+.cta-btn {
+  background-color: #7289da;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.cta-btn a {
+  color: white;
+  text-decoration: none;
 }
