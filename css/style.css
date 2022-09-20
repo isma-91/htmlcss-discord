@@ -11,7 +11,9 @@ html {
 header {
   background-image: url("../img/jumbo.png");
   background-size: cover;
-  background-position: 0px -110px;
+  /* background-position: 0px -110px; */
+  background-position-x: center;
+  background-position-y: center;
   background-repeat: no-repeat;
   height: 50vh;
 }
@@ -162,7 +164,7 @@ footer {
 
 .column {
   list-style-type: none;
-  padding: 30px 60px;
+  padding: 30px 40px;
 }
 
 .big-column {
