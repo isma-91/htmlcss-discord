@@ -192,7 +192,7 @@ footer h2 {
   padding-bottom: 10px;
 }
 
-footer img {
+.ita {
   max-width: 30px;
   vertical-align: middle;
 }
@@ -219,8 +219,4 @@ footer img {
   width: 1200px;
   padding: 20px;
   justify-content: space-between;
-}
-
-.footer-links img {
-  height: 20px;
 }
