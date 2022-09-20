@@ -148,9 +148,16 @@ footer {
   background-color: #23272a;
 }
 
+.footer-big-container {
+  display: flex;
+  justify-content: center;
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
+  width: 1200px;
+  border-bottom: 2px solid #7289da;
 }
 
 .column {
@@ -198,4 +205,20 @@ footer img {
   color: white;
   font-size: 25px;
   padding: 15px 20px 15px 0;
+}
+
+.small-footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  width: 1200px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.footer-links img {
+  height: 20px;
 }
