@@ -11,7 +11,7 @@ html {
 header {
   background-image: url("../img/jumbo.png");
   background-size: cover;
-  background-position: center;
+  background-position: 0px -93px;
   background-repeat: no-repeat;
   height: 50vh;
 }
@@ -42,7 +42,12 @@ nav ul li a {
   padding: 10px 20px;
   border-radius: 50px;
 }
+.btn-black {
+  background-color: #23272a;
+  color: white;
+}
 
+/* probabilmente da fare con header flex e posizionarlo in modo tale che rimpicciolendo la finestra non vada fuori dall'header */
 .header-content {
   color: white;
   width: 750px;
@@ -68,12 +73,13 @@ section {
   /* border: 3px solid black; */
   display: flex;
   height: 50vh;
+  /* se metto le altezze fisse, come sembra dalla foto che abbiamo ricevuto il testo sborda, se invece non le metto succede qualcosa di strano al testo a destra, ovvero scompare se restringo molto lo shcermo. */
   justify-content: center;
   align-items: center;
 }
 
 section h2 {
-  font-size: 2rem;
+  font-size: 1, 5rem;
   margin: 0px 25px;
 }
 
@@ -87,12 +93,14 @@ section p {
   background-color: lightgray;
 }
 
+/* vedere cosa succede mettendo una larghezza preimpostata per il testo */
+
 .text-right .content-right {
-  max-width: 25%;
+  max-width: 15%;
 }
 
 .text-left .content-left {
-  max-width: 25%;
+  max-width: 15%;
 }
 
 .big-one {
@@ -103,11 +111,12 @@ section p {
 }
 
 .big-one > p {
-  max-width: 60%;
+  max-width: 47%;
 }
 
 .img-big {
-  height: 60vh;
+  height: 50vh;
+  margin: 5vh 0;
 }
 
 .cta {
